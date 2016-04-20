@@ -4,6 +4,8 @@ add_executable(helloworld helloworld.cpp)
 add_executable(tests tests.cpp)
 target_link_libraries(tests m)
 
+add_executable(Horst gcd.cpp)
+
 # Kommentieren Sie die folgenden Zeilen für die Aufgabe `mileToKilometer` aus
 #add_executable(mileToKilometer mileToKilometer.cpp)
 #target_link_libraries(mileToKilometer m)
